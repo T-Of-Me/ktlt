@@ -1,0 +1,69 @@
+ 
+ 
+ Input: File
+ Ouput: File
+Sinh viên tự đưa ra cấu trúc file cho hợp lý với dữ liệu bài toán.
+Ví dụ:
+File dữ liệu đầu vào là một dãy số nguyên
+sapxep.cpp
+Input: sapxep.inp
+Dòng đầu là số n (n<106
+)
+Dòng tiếp theo ghi n số nguyên, mỗi số cách nhau bởi các dấu cách.
+Output: sapxep.out
+Ghi trên một dòng gồm n số đã được sắp xếp, mỗi số cách nhau đúng một dấu cách.
+ Cài đặt sử dụng hàm tốt
+ Trình bày đẹp.
+ Thuật toán hiệu quả.
+ Chuẩn bị trước các bộ dữ liệu demo chạy chương trình.
+Danh sách bài tập tổng hợp (70%)
+
+
+1. Cài đặt thuật toán sắp xếp chọn, chèn, nổi bọt. Chạy thử nghiệm trên bộ dữ liệu lớn 
+(số phần tử của mảng N<=106
+), so sánh thời gian sắp xếp các thuật toán.
+2. Cài đặt thuật toán sắp xếp QuickSort. Tìm kiếm một phần tử bằng thuật toán tìm kiếm 
+nhị phân. (số phần tử của mảng N<=106
+)
+3. Cài đặt các thao tác cơ bản với danh sách liên kết đơn, sử dụng mảng. 
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+4. Cài đặt các thao tác cơ bản với danh sách liên kết kép. 
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+5. Cài đặt các thao tác cơ bản với danh sách liên kết vòng.
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+6. Viết chương trình thêm một phần tử trong danh sách liên kết đã có thứ tự sao cho ta
+vẫn có một danh sách có thứ tự (với danh sách liên kết đơn)
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+7. Viết chương trình thêm một phần tử trong danh sách liên kết đã có thứ tự sao cho ta
+vẫn có một danh sách có thứ tự (với danh sách liên kết kép)
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+8. Viết chương trình con loại bỏ các phần tử trùng nhau (giữ lại duy nhất 1 phần tử) 
+trong một danh sách liên kết có thứ tự không giảm (với danh sách liên kết đơn)
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+9. Viết chương trình con loại bỏ các phần tử trùng nhau (giữ lại duy nhất 1 phần tử) 
+trong một danh sách liên kết có thứ tự không giảm (với danh sách liên kết kép)
+Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
+10.Cài đặt các thao tác với stack. (sử dụng mảng)
+Minh họa thông qua dữ liệu nhập từ file.
+11.Cài đặt các thao tác với stack. (sử dụng danh sách liên kết đơn)
+Minh họa thông qua dữ liệu nhập từ file.
+12.Cài đặt các thao tác với stack. (sử dụng danh sách liên kết kép)
+Minh họa thông qua dữ liệu nhập từ file.
+13.Viết chương trình đổi số nguyên không âm sang số nhị phân sử dụng Stack
+14.Viết chương trình đảo ngược một xâu ký tự sử dụng Stack
+15.Viết chương trình đảo ngược một danh sách sử dụng Stack
+16.Viết chương trình con kiểm tra một chuỗi dấu ngoặc có đúng không?
+17.Viết chương trình tính giá trị của một biểu thức hậu tố
+18.Viết chương trình con kiểm tra một biểu thức được cho dưới dạng hậu tố có chuẩn 
+không (thông báo lỗi nếu không chuẩn), giả sử mỗi toán hạng là 1 ký tự 
+19.Cài đặt các thao tác với queue. (sử dụng mảng)
+Minh họa thông qua dữ liệu nhập từ file.
+20.Cài đặt các thao tác với queue. (sử dụng danh sách liên kết đơn)
+Minh họa thông qua dữ liệu nhập từ file.
+21.Cài đặt các thao tác với queue. (sử dụng danh sách liên kết kép)
+Minh họa thông qua dữ liệu nhập từ file.
+22. Thực hiện các thao tác trên cây nhị phân tìm kiếm. Chèn, Xóa, Duyệt cây
+
+
+
+

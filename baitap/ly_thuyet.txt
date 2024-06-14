@@ -1,0 +1,183 @@
+ 
+1. Định nghĩa về giải thuật. Có những cách nào để biểu diễn giải thuật? Cho ví 
+dụ minh họa.
+2. Khái niệm về mảng. Thao tác khai báo, truy vấn dữ liệu trên mảng. Cho ví 
+dụ minh họa.
+3. Biểu diễn mảng 2 chiều theo hàng thành mảng một chiều. Nêu cách xác định 
+địa chỉ của một phần tử trên mảng 2 chiều theo hàng. Cho ví dụ minh họa.
+4. Trình bày khái niệm về đệ quy. Cho ví dụ minh họa.
+5. Nêu 01 ví dụ có sử dụng đệ quy. Phân tích các bước thực hiện giải thuật cho 
+ví dụ đó.
+6. Giới thiệu bài toán tháp Hà nội. Nêu ý tưởng về cách giải bài toán có sử 
+dụng đệ quy.
+7. Nêu khái niệm và vai trò của sắp xếp. Cho ví dụ minh họa về vai trò của sắp 
+xếp.
+
+
+
+
+8. Nêu ý tưởng giải thuật sắp xếp chèn. Cho ví dụ và thực hiện từng bước của 
+giải thuật sắp xếp chèn.
+9. Nêu ý tưởng giải thuật sắp xếp chèn. Cho ví dụ minh họa và đánh giá độ 
+phức tạp của giải thuật sắp xếp chèn.
+
+
+
+
+10.Nêu ý tưởng giải thuật sắp xếp chọn. Cho ví dụ và thực hiện từng bước của 
+giải thuật sắp xếp chọn.
+11.Nêu ý tưởng giải thuật sắp xếp chọn. Cho ví dụ minh họa và đánh giá độ 
+phức tạp của giải thuật sắp xếp chọn.
+
+
+
+
+
+12.Nêu ý tưởng giải thuật sắp xếp nổi bọt. Cho ví dụ và thực hiện từng bước 
+của giải thuật sắp xếp nổi bọt.
+13.Nêu ý tưởng giải thuật sắp xếp nổi bọt. Cho ví dụ minh họa và đánh giá độ 
+phức tạp của giải thuật sắp xếp nổi bọt.
+
+
+
+
+
+
+14.Nêu ý tưởng của giải thuật sắp xếp nhanh (Quick Sort). Cho ví dụ minh họa.
+
+
+
+
+15.Trình bày phương pháp tìm kiếm tuần tự cho danh sách đã sắp xếp và danh 
+sách chưa sắp xếp. Nhập một dãy số nguyên đã sắp xếp, sử dụng phương 
+pháp tìm kiếm tuần tự để tìm tất cả các phần tử có giá trị bằng x được nhập 
+từ bàn phím.
+16.Trình bày phương pháp tìm kiếm nhị phân. Phân tích độ phức tạp của 
+phương pháp tìm kiếm nhị phân. Cho ví dụ minh họa.
+
+
+
+
+
+17.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác thêm một 
+phần tử vào đầu danh sách.
+18.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác thêm một 
+phần tử vào cuối danh sách.
+19.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác thêm một 
+phần tử vào sau phần tử thứ p trong danh sách.
+20.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác xóa một 
+phần tử ở đầu danh sách.
+21.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác xóa một 
+phần tử ở cuối danh sách.
+22.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác xóa một 
+phần tử vào sau phần tử thứ p trong danh sách.
+- 2 -
+23.Trình bày cấu trúc dữ liệu danh sách liên kết đơn. Cài đặt thao tác làm rỗng 
+một danh sách.
+
+
+
+
+
+24.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác thêm một 
+phần tử vào đầu danh sách.
+25.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác thêm một 
+phần tử vào cuối danh sách.
+26.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác thêm một 
+phần tử vào sau phần tử thứ p trong danh sách.
+27.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác xóa một 
+phần tử ở đầu danh sách.
+28.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác xóa một 
+phần tử ở cuối danh sách.
+29.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác xóa một 
+phần tử vào sau phần tử thứ p trong danh sách.
+
+
+
+
+
+30.Trình bày cấu trúc dữ liệu danh sách liên kết vòng. Cài đặt thao tác thêm 
+một phần tử vào đầu danh sách.
+31.Trình bày cấu trúc dữ liệu danh sách liên kết vòng. Cài đặt thao tác thêm 
+một phần tử vào cuối danh sách.
+32.Trình bày cấu trúc dữ liệu danh sách liên kết vòng. Cài đặt thao tác xóa một 
+phần tử ở đầu danh sách.
+33.Trình bày cấu trúc dữ liệu danh sách liên kết vòng. Cài đặt thao tác xóa một 
+phần tử ở cuối danh sách.
+
+
+
+
+
+34.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+mảng. Trình bày thao tác pop của stack đã cài đặt.
+35.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+mảng. Trình bày thao tác push của stack đã cài đặt.
+36.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+mảng. Trình bày thao tác peek của stack đã cài đặt.
+37.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+danh sách liên kết. Trình bày thao tác pop của stack đã cài đặt.
+- 3 -
+38.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+danh sách liên kết. Trình bày thao tác push của stack đã cài đặt.
+39.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
+danh sách liên kết. Trình bày thao tác peek của stack đã cài đặt.
+40.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Trình bày ý tưởng 
+đảo một mảng số nguyên có sử dụng stack.
+41.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Trình bày ý tưởng 
+đảo chuỗi theo từ có sử dụng stack.
+42.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Trình bày ý tưởng 
+chuyển đổi một số từ cơ số 10 sang cơ số 2 có sử dụng stack.
+43.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Trình bày ý tưởng 
+chuyển đổi một số từ cơ số 10 sang cơ số 16 có sử dụng stack.
+44.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Trình bày ý tưởng 
+của giải thuật bracket matching (khớp dấu ngoặc trong một biểu thức) có sử 
+dụng stack. Cho ví dụ minh họa.
+
+
+
+
+
+
+45.Trình bày khái niệm về cấu trúc dữ liệu queue (hàng đợi). Cài đặt hàng đợi 
+tuyền tính bằng mảng. Trình bày thao tác lấy một phần tử trên hàng đợi 
+tuyến tính (Dequeue).
+46.Trình bày khái niệm về cấu trúc dữ liệu queue (hàng đợi). Cài đặt hàng đợi 
+tuyến tính bằng mảng. Trình bày thao tác thêm một phần tử vào hàng đợi 
+tuyến tính (Enqueue).
+47.Trình bày khái niệm về cấu trúc dữ liệu queue (hàng đợi). Cài đặt hàng đợi 
+vòng bằng mảng. Trình bày thao tác lấy một phần tử trên hàng đợi vòng 
+(Dequeue).
+48.Trình bày khái niệm về cấu trúc dữ liệu queue (hàng đợi). Trình bày phương 
+pháp demerging (tổ chức lại dữ liệu) có sử dụng hàng đợi.
+
+
+
+
+
+
+49.Trình bày khái niệm về cây tổng quát. Trình bày thao tác duyệt cây dạng 
+tiền thứ tự (Preorder). Cho ví dụ minh họa.
+50.Trình bày khái niệm về cây tổng quát. Trình bày thao tác duyệt cây dạng 
+trung thứ tự (Inorder). Cho ví dụ minh họa.
+- 4 -
+51.Trình bày khái niệm về cây tổng quát. Trình bày thao tác duyệt cây dạng 
+hậu thứ tự (Postorder). Cho ví dụ minh họa.
+52.Trình bày khái niệm về cây tổng quát. Trình bày thao tác duyệt cây theo 
+chiều rộng (Levelorder). Cho ví dụ minh họa.
+53.Trình bày khái niệm về cây nhị phân, cây đầy đủ. Cài đặt cây nhị phân đầy 
+đủ bằng mảng. Duyệt cây nhị phân dạng tiền thứ tự (Preorder). Cho ví dụ 
+minh họa.
+54.Trình bày khái niệm về cây nhị phân, cây hoàn chỉnh. Cài đặt cây nhị phân 
+hoàn chỉnh bằng mảng. Duyệt cây nhị phân dạng hậu thứ tự (Postorder). 
+Cho ví dụ minh họa.
+55.Trình bày khái niệm về cây nhị phân tìm kiếm. Cài đặt cây nhị phân tìm kiếm 
+bằng danh sách liên kết. Trình bày thao tác thêm một node vào cây nhị phân 
+tìm kiếm.
+56.Trình bày khái niệm về cây nhị phân tìm kiếm. Cài đặt cây nhị phân tìm kiếm 
+bằng danh sách liên kết. Trình bày thao tác xóa một node trên cây nhị phân 
+tìm kiếm.
+57.Trình bày khái niệm về cây nhị phân tìm kiếm. Cài đặt cây nhị phân tìm kiếm 
+bằng danh sách liên kết. Trình bày thao tác tìm một node trên cây nhị phân 
+tìm kiếm.
+- 5 -

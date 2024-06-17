@@ -25,7 +25,7 @@ int main()
             outputFile << num << " ";
         }
         outputFile.close();
-        cout << "Da ghi " << n << " so file input.txt\n";
+        cout << "Da ghi " << n << " so file sapxep.inp \n";
     }
     else
     {

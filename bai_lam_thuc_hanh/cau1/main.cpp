@@ -68,8 +68,8 @@ void bubbleSort(vector<int> &arr)
 
 int main()
 {
-    ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
+    ifstream inputFile("sapxep.inp");
+    ofstream outputFile("sapxep.out");
 
     if (!inputFile.is_open())
     {

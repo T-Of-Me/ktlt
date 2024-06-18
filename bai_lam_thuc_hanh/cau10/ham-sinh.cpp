@@ -13,7 +13,7 @@ int main()
 {
     int n = 10;
     int maxNumber = 10;
-    ofstream outputFile("sapxep.inp");
+    ofstream outputFile("input.txt");
 
     if (outputFile.is_open())
     {
@@ -23,7 +23,7 @@ int main()
             outputFile << num << " ";
         }
         outputFile.close();
-        cout << "Da ghi " << n << " so file sapxep.inp \n";
+        cout << "Da ghi " << n << " so file input.txt \n";
     }
     else
     {

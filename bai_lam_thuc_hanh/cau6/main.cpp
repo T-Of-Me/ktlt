@@ -1,3 +1,6 @@
+// Viết chương trình thêm một phần tử trong danh sách liên kết đã có thứ tự sao cho ta
+// vẫn có một danh sách có thứ tự (với danh sách liên kết đơn)
+// Minh họa, tạo danh sách thông qua dữ liệu nhập từ file.
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -16,15 +19,12 @@ Node *createNode(int x)
     newNode->next = nullptr;
     return newNode;
 }
-//  các thao tác chèn
-
 void insertAtBeginning(List *DS, int x)
 {
     Node *newNode = createNode(x);
     newNode->next = *DS;
     *DS = newNode;
 }
-
 void insertAtEnd(List *DS, int x) // chuyền tham chiếu
 {
     Node *newNode = createNode(x);
@@ -74,89 +74,6 @@ void insertAtPos(List *DS, int x, int pos)
         }
     }
 }
-// xoa gia tri
-
-void DeleteFisrt(List *DS)
-{
-    Node *current = *DS;
-    *DS = current->next;
-}
-
-void DeletePos(List *DS, int pos)
-{
-
-    Node *pre;
-    Node *current = *DS;
-    int POS = 1;
-    if (pos == 1)
-    {
-        DeleteFisrt(DS);
-    }
-    else
-    {
-        while (current->next != NULL)
-        {
-            pre = current;
-            current = current->next;
-            POS++;
-            if (POS == pos)
-            {
-                break;
-            }
-        }
-        // tìm thấy vị trí cần xóa
-        if (current->next == NULL)
-        {
-            pre->next = NULL;
-        }
-        else
-        {
-            pre->next = current->next;
-        }
-    }
-}
-void DeleteLast(List *DS)
-{
-    Node *pre;
-    Node *cur = *DS;
-    while (cur->next != NULL)
-    {
-        pre = cur;
-        cur = cur->next;
-    }
-    pre->next = NULL;
-}
-int searchNode(List DS, int x)
-{
-    int i = 0;
-    Node *current = DS;
-    while (current != nullptr)
-    {
-        i++;
-        if (current->data == x)
-        {
-            return i;
-        }
-        current = current->next;
-    }
-    return 0;
-}
-
-void MakeListEmpty(List *DS)
-{
-    (*DS)->next = NULL;
-}
-int CheckListEmpty(List DS)
-{
-    if (DS->next == NULL)
-    {
-        return 1;
-    }
-    else
-    {
-        return 0;
-    }
-}
 void printList(List DS, ofstream &file) // ghi vào file
 {
     Node *temp = DS;
@@ -167,7 +84,6 @@ void printList(List DS, ofstream &file) // ghi vào file
     }
     file << endl;
 }
-
 int main()
 {
     List DS = nullptr; // khởi tạo danh sách
@@ -180,38 +96,15 @@ int main()
 
     inputFile.close();
     //================================    //================================
-    // cout << "nhap gia tri chen ";
-    // int data;
-    // cin >> data;
-    // cout << "nhap vi tri de chen ";
-    // int pos;
-    // cin >> pos;
-    // insertAtPos(&DS, data, pos);
+    cout << "nhap gia tri chen ";
+    int data;
+    cin >> data;
+    cout << "nhap vi tri de chen ";
+    int pos;
+    cin >> pos;
+    insertAtPos(&DS, data, pos);
     //================================    //================================
-    // cout << "nhap gia tri can search :";
-    // int x;
-    // cin >> x;
-    // int k;
-    // k = searchNode(DS, x);
-    // if (k == 0)
-    // {
-    //     cout << "Node khong ton tai";
-    // }
-    // else
-    // {
-    //     cout << "Node o vi tri thu " << k << endl;
-    // }
-    //================================    //================================
-    // MakeListEmpty(&DS);
 
-    //================================    //================================
-    // xoa node
-
-    // cout << endl;
-    // cout << "nhap vi tri can xoa ";
-    // int y;
-    // cin >> y;
-    // DeletePos(&DS, y);
     //================================    //================================
     // viết vào file out
     ofstream outputFile("sapxep.out");

@@ -24,10 +24,12 @@ phức tạp của giải thuật sắp xếp chèn.
 
 
 
+
 10.Nêu ý tưởng giải thuật sắp xếp chọn. Cho ví dụ và thực hiện từng bước của 
 giải thuật sắp xếp chọn.
 11.Nêu ý tưởng giải thuật sắp xếp chọn. Cho ví dụ minh họa và đánh giá độ 
 phức tạp của giải thuật sắp xếp chọn.
+
 
 
 
@@ -43,7 +45,9 @@ phức tạp của giải thuật sắp xếp nổi bọt.
 
 
 
+
 14.Nêu ý tưởng của giải thuật sắp xếp nhanh (Quick Sort). Cho ví dụ minh họa.
+
 
 
 
@@ -54,6 +58,7 @@ pháp tìm kiếm tuần tự để tìm tất cả các phần tử có giá tr
 từ bàn phím.
 16.Trình bày phương pháp tìm kiếm nhị phân. Phân tích độ phức tạp của 
 phương pháp tìm kiếm nhị phân. Cho ví dụ minh họa.
+
 
 
 
@@ -79,6 +84,7 @@ một danh sách.
 
 
 
+
 24.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác thêm một 
 phần tử vào đầu danh sách.
 25.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác thêm một 
@@ -91,6 +97,8 @@ phần tử ở đầu danh sách.
 phần tử ở cuối danh sách.
 29.Trình bày cấu trúc dữ liệu danh sách liên kết kép. Cài đặt thao tác xóa một 
 phần tử vào sau phần tử thứ p trong danh sách.
+
+
 
 
 
@@ -109,6 +117,8 @@ phần tử ở cuối danh sách.
 
 
 
+
+
 34.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
 mảng. Trình bày thao tác pop của stack đã cài đặt.
 35.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
@@ -118,6 +128,11 @@ mảng. Trình bày thao tác peek của stack đã cài đặt.
 37.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
 danh sách liên kết. Trình bày thao tác pop của stack đã cài đặt.
 - 3 -
+
+
+
+
+
 38.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 
 danh sách liên kết. Trình bày thao tác push của stack đã cài đặt.
 39.Trình bày khái niệm cấu trúc dữ liệu stack (ngăn xếp). Cài đặt stack bằng 

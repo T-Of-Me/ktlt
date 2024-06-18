@@ -13,7 +13,7 @@ int main()
 {
     int n = 10;
     int maxNumber = 10;
-    ofstream outputFile("sapxep.inp");
+    ofstream outputFile("input.txt");
 
     if (outputFile.is_open())
     {

@@ -1,4 +1,8 @@
-// 13.Viết chương trình đổi số nguyên không âm sang số nhị phân sử dụng Stack
+// 14.Viết chương trình đảo ngược một xâu ký tự sử dụng Stack
+
+
+ 
+
 #include <iostream>
 #include <iostream>
 #include <fstream>
@@ -6,7 +10,7 @@ using namespace std;
 
 struct Node
 {
-    int data;
+    char data;
     Node *next;
 };
 typedef Node *Stack;
@@ -27,7 +31,7 @@ int IsEmpty(Stack s)
     }
 }
 
-int Push(Stack *s, int data)
+int Push(Stack *s, char data)
 {
     Node *NewNode = new Node;
     NewNode->data = data;
@@ -44,7 +48,7 @@ int Push(Stack *s, int data)
     return 1;
 }
 
-int Pop(Stack *s, int *data)
+int Pop(Stack *s, char *data)
 {
     if (IsEmpty(*s) == 1)
     {
@@ -62,29 +66,15 @@ int Pop(Stack *s, int *data)
 
 int main()
 {
-    cout << "nhap so  :";
-    int so;
-    cin >> so;
-    if (so < 0)
-    {
-        return 0 ;
-    }
     Stack s;
     Init(&s);
-    bool check = false;
-    while (check == false)
+    char data;
+    ifstream file("input.txt");
+    ofstream fileOut("output.txt");
+    while (file >> data)
     {
-        int r = so % 2;
-        Push(&s, r);
-        so = so / 2;
-        if (so < 2)
-        {
-            check = true;
-        }
+        Push(&s, data);
     }
-
-    Push(&s, so);
-    int data;
     while (IsEmpty(s) == 0)
     {
         if (Pop(&s, &data) == 0)
@@ -93,9 +83,10 @@ int main()
         }
         else
         {
+            fileOut << data << " ";
             cout << data << " ";
         }
     }
+    file.close();
+    fileOut.close();
 }
-
-// mệt vl

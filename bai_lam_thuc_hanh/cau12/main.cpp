@@ -52,7 +52,6 @@ int Push(Stack &S, int data)
     else
     {
         NewNode->next = S.head;
-        // (*s)->prev = NewNode;
         S.head = NewNode;
     }
     return 1;

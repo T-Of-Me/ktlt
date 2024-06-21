@@ -66,7 +66,9 @@ int pop(Stack *s, int *data)
         return 1;
     }
 }
-
+int peek (Stack s){
+    return s.node[s.top];
+}
 int main()
 {
     Stack s;

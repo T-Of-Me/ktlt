@@ -11,8 +11,8 @@ using namespace std;
 
 int main()
 {
-    int n = 1000000;
-    int maxNumber = 1000000;
+    int n = 1000;
+    int maxNumber = 1000;
     ofstream outputFile("sapxep.inp");
     outputFile << n << endl;
 

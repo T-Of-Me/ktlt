@@ -89,7 +89,6 @@ int main()
     }
 
     RemoveDuplicate(&DS);
-    cout << "dasdasd";
     ofstream outputFile("output.txt");
     outputFile << "Danh sach lien ket: ";
     printList(DS, outputFile);

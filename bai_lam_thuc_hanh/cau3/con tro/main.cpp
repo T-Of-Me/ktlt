@@ -94,16 +94,23 @@ void DeletePos(List *DS, int pos)
     }
     else
     {
-        while (current->next != NULL)
+        // while (current->next != NULL)
+        // {
+        //     pre = current;
+        //     current = current->next;
+        //     POS++;
+        //     if (POS == pos)
+        //     {
+        //         break;
+        //     }
+        // }
+        while ( current != NULL && POS < pos)
         {
+            POS ++;
             pre = current;
             current = current->next;
-            POS++;
-            if (POS == pos)
-            {
-                break;
-            }
         }
+        
         // tìm thấy vị trí cần xóa
         if (current->next == NULL)
         {
@@ -207,11 +214,11 @@ int main()
     //================================    //================================
     // xoa node
 
-    // cout << endl;
-    // cout << "nhap vi tri can xoa ";
-    // int y;
-    // cin >> y;
-    // DeletePos(&DS, y);
+    cout << endl;
+    cout << "nhap vi tri can xoa ";
+    int y;
+    cin >> y;
+    DeletePos(&DS, y);
     //================================    //================================
     // viết vào file out
     ofstream outputFile("sapxep.out");

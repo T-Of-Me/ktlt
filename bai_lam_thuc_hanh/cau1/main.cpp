@@ -94,11 +94,11 @@ int main()
     clock_t startTime, endTime;
 
     // Sắp xếp chọn
-    vector<int> selectionArr(arr);
-    startTime = clock();
-    selectionSort(selectionArr);
-    endTime = clock();
-    double selectionTime = (double)(endTime - startTime) / CLOCKS_PER_SEC;
+    vector<int> selectionArr(arr); // chuyển mảng thành vector 
+    startTime = clock();  // bắt đầu đồng hồ 
+    selectionSort(selectionArr);   // thuật toán 
+    endTime = clock();   // kết thúc thuật toán 
+    double selectionTime = (double)(endTime - startTime) / CLOCKS_PER_SEC; // tính toán 
 
     // Sắp xếp chèn
     vector<int> insertionArr(arr);
